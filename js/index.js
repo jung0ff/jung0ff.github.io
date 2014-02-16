@@ -430,7 +430,7 @@ $(function() {
       
       //Parse.FacebookUtils.logIn("user_likes,email,read_friendlists,publish_actions,user_birthday,user_checkins,user_about_me,user_activities,user_education_history,user_events,user_groups,user_hometown,user_interests,user_location,user_relationships,user_religion_politics,user_work_history,id,name,first_name,last_name,link,username,gender,locale", {
       //Parse.FacebookUtils.logIn("user_likes,email,read_friendlists,publish_actions,user_birthday,user_checkins,user_about_me,user_activities,user_education_history,user_events,user_groups,user_hometown,user_interests,user_location,user_relationships", {
-        Parse.FacebookUtils.logIn("email {
+        Parse.FacebookUtils.logIn("email", {
         success: function(user) {
           if (!user.existed()) {
             alert("User signed up and logged in through Facebook!");
