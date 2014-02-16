@@ -7,13 +7,13 @@ $(function() {
   Parse.$ = jQuery;
 
   // Initialize Parse with your Parse application javascript keys
-  Parse.initialize("ZVE1pA0WiNLy9HFNekPwou3mlrFBTfsYovHvnL0U",
-                   "asCHoNfaI3hp2eLu4LPCNIv0jeRBD4qSePtxXUY8");
+  Parse.initialize("NJ2ubqHz8aBz9NG07oYigux0E19Nyavea84sMzEZ",
+                   "zVn01uyzReev6gEutxCrFJFkd4L4Q6Ix0djQzcfv");
 
   window.fbAsyncInit = function() {
     // init the FB JS SDK
     Parse.FacebookUtils.init({
-      appId      : '414719538659993',                    // App ID from the app dashboard
+      appId      : '641053045953983',                    // App ID from the app dashboard
       status     : true,                                 // Check Facebook Login status
       xfbml      : true,                                 // Look for social plugins on the page
       cookie     : true                                  // enable cookies to allow Parse to access the session
