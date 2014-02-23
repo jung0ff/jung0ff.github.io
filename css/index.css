@@ -425,6 +425,22 @@ label[for='toggle-all'] {
     width: 340px;;
 }
 
+#todoapp .content #signup-male {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 50px;
+    width: 20px;;
+}
+
+#todoapp .content #signup-female {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 50px;
+    width: 20px;;
+}
+
 #todoapp .content .login .signup-form {
     margin-top: 25px;
 }
