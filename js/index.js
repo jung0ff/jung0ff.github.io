@@ -407,7 +407,7 @@ $(function() {
       var username = this.$("#signup-username").val();
       var password = this.$("#signup-password").val();
       
-      Parse.User.signUp(username, password, { ACL: new Parse.ACL() }, {
+      Parse.User.signUp(username, password, {yearOfBirth : yearOfBirth, sex : sex, ACL: new Parse.ACL() }, {
         success: function(user) {
           new ManageTodosView();
           self.undelegateEvents();
